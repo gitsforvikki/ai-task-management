@@ -1,6 +1,6 @@
-# AI Knowledge Vault - Backend
+# AI Note Management - Backend
 
-The robust backend engine powering the AI Knowledge Vault, built with Node.js, Express, and MongoDB. This service handles note management, asynchronous AI processing using Google Gemini, and intelligent querying.
+The robust backend engine powering the AI Note Management, built with Node.js, Express, and MongoDB. This service handles note management, asynchronous AI processing using Google Gemini, and intelligent querying.
 
 ## 🚀 Features
 
@@ -42,7 +42,7 @@ Before you begin, ensure you have the following installed:
    Create a `.env` file in the root of the backend directory and add the following:
    ```env
    PORT=5000
-   MONGODB_URI=mongodb://localhost:27017/ai-knowledge-vault
+   MONGODB_URI=mongodb://localhost:27017/ai-note-management
    GEMINI_API_KEY=your_gemini_api_key_here
    ```
 
