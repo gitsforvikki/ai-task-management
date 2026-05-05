@@ -96,4 +96,4 @@ backend/
 
 ---
 
-Built with ❤️ for the AI Knowledge Vault project.
+Built with ❤️ for the AI Note Management project.
