@@ -54,6 +54,27 @@ Before you begin, ensure you have the following installed:
    # Production mode
    npm start
    ```
+## ⚠️ AI API Usage Note
+
+This project uses the **Google Gemini API (free tier)** for AI-powered features such as summarization and querying.
+
+Due to free-tier limitations, the API may occasionally:
+
+- Hit **rate limits**
+- Return **quota exceeded errors**
+- Temporarily fail during heavy usage
+
+### 🧪 Testing Recommendation
+
+If you encounter issues while testing:
+
+1. Wait for the rate limit to reset  
+   **OR**  
+2. Replace the API key with your own:
+
+```env
+GEMINI_API_KEY=your_api_key_here
+```
 
 ## 📡 API Documentation
 
